@@ -166,6 +166,11 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - Instructions want us to check if temp is higher than 39 AND time is >= 4.
+// Logical operator || should not be used here. Instead, it needs to be changed to
+// the and (&&) operator. It should look like >> if (temp > 39 && time >= 4). Both 
+// are true, so console.log value will show 'throw away the food!'
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
