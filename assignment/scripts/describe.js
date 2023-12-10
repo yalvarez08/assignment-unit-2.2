@@ -162,6 +162,9 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+
+// FIX - Both temp and time are supposed to be variables. Time is incorrectly 
+// called as a constant; this should be changed to >> let time = 4;
 /*
 let temp = 40;
 const time = 4;
@@ -180,6 +183,9 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+
+// FIX - minAge should not be written as a const. Instructions indicate it is a variable;
+// should be changed to >> let minAge = 21;
 /*
 let age = 21;
 const minAge = 21;
