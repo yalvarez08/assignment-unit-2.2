@@ -26,10 +26,12 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We made a variable called name and declared it as the string 'Dane'.
+// Then we created conditional statement to determine if name is true (exact match)
+// to 'Mary'. If so, the console log output will be 'Hi, Mary!' Otherwise, if the
+// condition is actually false (which it is because we've already established our 
+// variable name is set to 'Dane'), the console log output will give us 'How do you
+// do?'  After running this, the console log value is 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +47,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We made a variable called secret, it has no declaration. We made another variable
+// called code and set it to '123'. We then created a conditional statement to check
+// if code exactly matches the value '123', then this will set the variable secret
+// to 'super' and reset the variable code by multiplying it's value by 2 (123*2).
+// Secondly, it will check if the code value is greater than 250, and if so then the
+// variable secret will be set to 'duper'. Code exactly matches 123, so console.log's
+// value will return as secret = 'super' and code = 123 * 2 ==> 246.
 
 //CODE
 /*
@@ -70,9 +75,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We made a variable called isStudent and set it to boolean value of true; a variable
+// called age and set it to the number 34; a variable called zip and set it to the 
+// number 55407. Then created a condition to determine if isStudent is exactly true AND 
+// if the zip value is greater than 80000; keep in mind, in order for this condition
+// to be true, BOTH of these criteria must be met. If correct/true, the console.log  
+// will display 'You're a student on the West Coast!'. Following that is an else if statement
+// which runs if the first condition is false; this one states in the event that isStudent is 
+// of equal value to false OR the age value is less than 
+// 30, then the console.log will display 'What are your hobbies?' Next is another else if
+// statement that states in the event that isStudent is of equal value to true, the console.log  
+// will output 'Welcome to Prime!' Last is an else statement which applies when all of the above
+// conditions aren't met, this console.log value will be 'How about the weather?'
 //
 
 //CODE
@@ -130,9 +144,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - instructions indicate colorOne is 'blue' and colorTwo is 'red'. These 
+// are mixed up. 
+// Should be >> colorOne = 'blue' and colorTwo = 'red'. The variable colorTwo is 
+// missing in condition statement. Should be >> colorOne , colorTwo = 'purple'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
 
 if (mix === true) {
   colorOne = 'purple';
